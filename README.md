@@ -1,1 +1,0 @@
-# tursunov.github.io
