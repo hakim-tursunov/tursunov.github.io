@@ -367,8 +367,7 @@ body {
   }
 
   .main_content-item {
-    height: 100vh;
-    min-height: fit-content;
+    min-height: 400px;
   }
 
   .nav {
