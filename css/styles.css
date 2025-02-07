@@ -366,10 +366,6 @@ body {
     padding: 10px;
   }
 
-  .main_content-item {
-    min-height: 400px;
-  }
-
   .nav {
     position: sticky;
     top: 0;
