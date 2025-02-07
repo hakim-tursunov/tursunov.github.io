@@ -40,7 +40,8 @@ body {
   margin: 0;
   background: #010C15;
   max-width: 100%;
-  min-width: 375px;
+  min-width: 320px;
+  box-sizing: border-box;
 }
 
 .main {
@@ -70,7 +71,11 @@ body {
   border-right: 1px solid #1E2D3D;
   border-bottom: 2px solid transparent;
 }
-  
+
+.nav_menu-link:last-child {
+  border-right: none;
+}
+
 .nav_menu-link:hover {
   border-bottom: 2px solid #43d9ad;
 
@@ -319,8 +324,8 @@ body {
   }
 
   .nav_logo, .nav_menu-link, .nav-bottom_item {
-    padding: 7px;
-    font-size: 15px;
+    font-size: 12px;
+    padding: 10px 7px;
   }
 
   .nav-bottom_item i{
