@@ -366,6 +366,10 @@ body {
     padding: 10px;
   }
 
+  .main_content-item.home {
+    height: 85vh;
+  }
+  
   .nav {
     position: sticky;
     top: 0;
